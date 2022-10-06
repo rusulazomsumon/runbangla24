@@ -8,7 +8,7 @@
 <!-- linking header -->
     <?php get_header() ?>
 
-    <!-- Main News Slider Start -->
+    <!-- M$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$((((((((((((Main News Slider Start)))))))))))))))) $$$$$$$$$$$$$$$$$$$$$$$$$-->
     <div class="container-fluid">
         <!-- ###############################Breaking News #################################### -->
         <?php 
@@ -29,7 +29,7 @@
                         while($query -> have_posts()){
                             $query->the_post();
                             ?>
-                            <!-- Single News  scripts -->
+                            <!-- Single News  markup -->
                     <!-- single post start: slider -->
                     <div class="position-relative overflow-hidden" style="height: 500px;">
                         <img class="img-fluid h-100" src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_post_thumbnail_caption($post); ?>" style="object-fit: cover;">
@@ -59,7 +59,7 @@
                 </div>
             </div>
             <!-- *********************main post slider end*************** -->
-            <!-- ################### image box post #################### -->
+    <!-- #################################### image box post ########################################## -->
             <!-- Showing form template parts NingBox -->
             <?php get_template_part('template-parts/pertials/content','NimgBox'); ?>
         </div>

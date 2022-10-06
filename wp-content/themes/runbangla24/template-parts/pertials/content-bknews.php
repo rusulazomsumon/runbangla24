@@ -1,4 +1,4 @@
-<div class="container-fluid bg-white py-3 mb-3">
+<div class="container-fluid bg-dark py-3 mb-3">
         <div class="container">
             <div class="row align-items-center bg-dark">
                 <div class="col-12">
