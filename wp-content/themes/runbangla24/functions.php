@@ -65,3 +65,25 @@
 
     }
     add_action( 'wp_enqueue_scripts', 'runbangla24_assets' );
+
+// custome excerpt length
+    function runbangla24_custom_excerpt_length( $length ) {
+        return 20;
+    }
+    add_filter( 'excerpt_length', 'runbangla24_custom_excerpt_length', 999 );
+
+
+    // register sideber 
+    function runbangla24_sidebar(){
+        // main sidebar
+        register_sidebar(array(
+            'name' 	        => __('Theme Main Sidebar','runbangla24'),
+            'id'	        => 'sidebar',
+            'description'	=> __('Sidebar will show blog/post/category and others requred pages', 'runbangla24'),
+            'before_widget'  => '<li id="%1$s" class="widget %2$s">',
+            'after_widget'   => "</li>\n",
+            'before_title'   => '<h4">',
+            'after_title'    => "</h4>\n",
+        ));
+    }
+    add_action('widgets_init', 'runbangla24_sidebar');

@@ -185,7 +185,7 @@
                      <!-- ******3333333333333******** leatest single news international *******33333333333333**** -->
                         <div class="col-lg-4">
                             <div class="section-title">
-                                <h4 class="m-0 text-uppercase font-weight-bold">মতামত</h4>
+                                <h5 class="m-0 text-uppercase font-weight-bold">মতামত</h5>
                             </div>
                             <?php 
                                 $args = array(
@@ -216,7 +216,7 @@
                                         </a>
                                         <a class="text-body" href="#"><small><?php the_date(); ?></small></a>
                                     </div>
-                                    <a class="h5 d-block mb-3 text-secondary text-uppercase font-weight-bold" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                                    <a class="h6 d-block mb-3 text-secondary text-uppercase font-weight-bold" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                                 </div>
                             </div>
                             <!-- single post markup: end -->
@@ -228,7 +228,7 @@
                         <!-- #####33333333333333333333######## leatest soprts  news ########333333333333333333333333#### -->
                         <div class="col-lg-4">
                             <div class="section-title">
-                                <h4 class="m-0 text-uppercase font-weight-bold">চাকরি</h4>
+                                <h5 class="m-0 text-uppercase font-weight-bold">চাকরি</h5>
                             </div>
                             <?php 
                                 $args = array(
@@ -259,7 +259,7 @@
                                         </a>
                                         <a class="text-body" href="#"><small><?php the_date(); ?></small></a>
                                     </div>
-                                    <a class="h5 d-block mb-3 text-secondary text-uppercase font-weight-bold" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                                    <a class="h6 d-block mb-3 text-secondary text-uppercase font-weight-bold" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                                 </div>
                             </div>
                             <!-- single post markup: end -->
@@ -271,7 +271,7 @@
                         <!-- #####33333333333333333333######## leatest soprts  news ########333333333333333333333333#### -->
                         <div class="col-lg-4">
                             <div class="section-title">
-                                <h4 class="m-0 text-uppercase font-weight-bold">সুবর্ণ কথা</h4>
+                                <h5 class="m-0 text-uppercase font-weight-bold">সুবর্ণ কথা</h5>
                             </div>
                             <?php 
                                 $args = array(
@@ -302,7 +302,7 @@
                                         </a>
                                         <a class="text-body" href="#"><small><?php the_date(); ?></small></a>
                                     </div>
-                                    <a class="h5 d-block mb-3 text-secondary text-uppercase font-weight-bold" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                                    <a class="h6 d-block mb-3 text-secondary text-uppercase font-weight-bold" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                                 </div>
                             </div>
                             <!-- single post markup: end -->
