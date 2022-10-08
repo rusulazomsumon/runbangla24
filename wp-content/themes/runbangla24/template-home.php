@@ -97,7 +97,7 @@
                                     'post_type'     =>  'post',
                                     'order'         =>  'DSC',
                                     'category_name' =>  'দেশ-ও-জনপদের-খবর',
-                                    'post_per_page' =>  3
+                                    'posts_per_page' =>  3
                                 );
                                 $query = new WP_Query($args);
                                 while($query -> have_posts()){
@@ -141,7 +141,7 @@
                                     'post_type'     =>  'post',
                                     'order'         =>  'DSC',
                                     'category_name' =>  'খেলাধুলা',
-                                    'post_per_page' =>  3
+                                    'posts_per_page' =>  3
                                 );
                                 $query = new WP_Query($args);
                                 while($query -> have_posts()){
@@ -192,7 +192,7 @@
                                     'post_type'     =>  'post',
                                     'order'         =>  'DSC',
                                     'category_name' =>  'মতামত',
-                                    'post_per_page' =>  2
+                                    'posts_per_page' =>  2
                                 );
                                 $query = new WP_Query($args);
                                 while($query -> have_posts()){
@@ -235,7 +235,7 @@
                                     'post_type'     =>  'post',
                                     'order'         =>  'DSC',
                                     'category_name' =>  'চাকরি',
-                                    'post_per_page' =>  2
+                                    'posts_per_page' =>  2
                                 );
                                 $query = new WP_Query($args);
                                 while($query -> have_posts()){
@@ -278,7 +278,7 @@
                                     'post_type'     =>  'post',
                                     'order'         =>  'DSC',
                                     'category_name' =>  'সুবর্ণ-কথা',
-                                    'post_per_page' =>  2
+                                    'posts_per_page' =>  2
                                 );
                                 $query = new WP_Query($args);
                                 while($query -> have_posts()){
@@ -331,7 +331,7 @@
                                     'post_type'     =>  'post',
                                     'order'         =>  'DSC',
                                     'category_name' =>  'আন্তর্জাতিক',
-                                    'post_per_page' =>  2
+                                    'posts_per_page' =>  2
                                 );
                                 $query = new WP_Query($args);
                                 while($query -> have_posts()){
@@ -388,7 +388,7 @@
                     $args = array(
                         'post_type'     =>  'post',
                         'order'         =>  'ASC',
-                        'post_per_page' =>  5
+                        'posts_per_page' =>  5
                     );
                     $query = new WP_Query($args);
                     while($query -> have_posts()){
