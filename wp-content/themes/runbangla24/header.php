@@ -23,7 +23,7 @@
 <body <?php body_class(); ?>>
     <!-- Topbar Start -->
     <div class="container-fluid d-none d-lg-block">
-        <div class="row align-items-center bg-dark px-lg-5">
+        <!-- <div class="row align-items-center bg-dark px-lg-5">
             <div class="col-lg-9">
                 <nav class="navbar navbar-expand-sm bg-dark p-0">
                     <ul class="navbar-nav ml-n2">
@@ -66,7 +66,7 @@
                     </ul>
                 </nav>
             </div>
-        </div>
+        </div> -->
         <div class="row align-items-center bg-white py-3 px-lg-5">
             <div class="col-lg-4 logo">
                 <a href="<?php site_url(); ?>"><?php the_custom_logo(); ?></a>
@@ -80,7 +80,7 @@
 
 
     <!-- Navbar Start -->
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0" >
         <nav class="navbar navbar-expand-lg bg-danger shadow-sm navbar-dark py-2 py-lg-0 px-lg-5">
             <a href="index.html" class="navbar-brand d-block d-lg-none">
                 <h1 class="m-0 display-4 text-uppercase text-primary">রান<span class="text-white font-weight-normal">বাংলা২৪</span></h1>
