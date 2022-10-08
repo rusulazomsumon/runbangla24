@@ -9,7 +9,7 @@
                     $args = array(
                         'post_type'     =>  'post',
                         'order'         =>  'DSC',
-                        'category_name' =>  'দেশ-জনপদের-খবর',
+                        'category_name' =>  'দেশ-ও-জনপদের-খবর',
                         'post_per_page' =>  8
                     );
                     $query = new WP_Query($args);
